@@ -1,45 +1,45 @@
-window.location.href = "./projects/P1-ProductList.xlsx";
+window.location.href = "./projects/JobReport.xlsx";
 // Banco de preguntas
 const bancoDePreguntas = {
     proyecto1: {
-        nombre: "Product List",
-        archivo: "./projects/P1-ProductList.xlsx",
+        nombre: "JobReport",
+        archivo: "./projects/JobReport.xlsx",
         preguntas: [
 
             [
-                "In the 'Products' spreadsheet, freeze rows 1 and 2 so that the title and column headers remain visible as you scroll.",
-                "In the 'Products' spreadsheet, freeze rows 1, 2, and 3 so that the title and column headers remain visible as you scroll.",
-                "In the 'Products' spreadsheet, freeze row 1 so that the title remains visible as you scroll.",
-                "In the 'Products' spreadsheet, freeze rows 1, 2, 3, and 4 so that the title and column headers remain visible as you scroll.",
-                "In the 'Products' spreadsheet, freeze rows 1 to 3 so that the title and column headers remain visible as you scroll."
+                "Freeze row 1 on the 'Last Quarter' worksheet so it remains visible while scrolling.",
+                "Freeze the top 2 rows on the 'Last Quarter' worksheet to keep them visible while scrolling.",
+                "On the 'Last Quarter' worksheet, freeze rows 1 through 3 so they remain visible when scrolling down the sheet.",
+                "Freeze the first 4 rows on the 'Last Quarter' worksheet to maintain visibility while scrolling.",
+                "Freeze rows 1 and 2 on the 'Last Quarter' worksheet to ensure they stay in view while you scroll."
             ],
             [
-                "On the 'Products' worksheet, in the 'Quantity' column, use conditional formatting to apply the 3 Traffic Lights (Unrimmed) format to the values.",
-                "On the 'Products' worksheet, in the 'Quantity' column, use conditional formatting to apply the 3 Arrows (Colored) format to the values.",
-                "On the 'Products' worksheet, in the 'Quantity' column, use conditional formatting to apply the Red Data Bars (Gradient Fill) format to the values.",
-                "On the 'Products' worksheet, in the 'Quantity' column, use conditional formatting to apply the 3 Flags format to the values.",
-                "On the 'Products' worksheet, in the 'Quantity' column, use conditional formatting to apply the Color Scale (Red-Yellow-Green) format to the values."
+                "On the 'Last Quarter' worksheet, in cell A3, apply the Strikethrough font effect to the name 'Danner, Ryan.'",
+                "On the 'Last Quarter' worksheet, in cell B4, apply the Superscript font effect to the company 'SynergyTech Ventures.'",
+                "On the 'Last Quarter' worksheet, in cell A5, apply the Subscript font effect to the name 'Delaney, Casey.'",
+                "On the 'Last Quarter' worksheet, in cell A2, apply the Strikethrough font effect to the name 'Alden, Sawyer.'",
+                "On the 'Last Quarter' worksheet, in cell A3, apply the Superscript font effect to the name 'Danner, Ryan.'"
             ],
             [
-                "On the 'Products' worksheet, apply the White, Table Style Medium 1 style to the table.",
-                "On the 'Products' worksheet, apply the Light Blue, Table Style Light 9 style to the table.",
-                "On the 'Products' worksheet, apply the Orange, Table Style Medium 3 style to the table.",
-                "On the 'Products' worksheet, apply the Light Green, Table Style Light 14 style to the table.",
-                "On the 'Products' worksheet, apply the Dark Gray, Table Style Dark 4 style to the table."
+                "On the 'Summary' worksheet, in the 'Trend' column, insert Line sparklines to show the trends from Year 2 through Year 5.",
+                "On the 'Summary' worksheet, in the 'Trend' column, insert Column sparklines to show the trends from Year 1 through Year 5.",
+                "On the 'Summary' worksheet, in the 'Trend' column, insert Win/Loss sparklines to show trends from Year 1 to Year 4.",
+                "On the 'Summary' worksheet, in the 'Trend' column, insert Line sparklines to show the trends from Year 1 to Year 3.",
+                "On the 'Summary' worksheet, in the 'Trend' column, insert Column sparklines for the trends between Year 2 and Year 5."
             ],
             [
-                "On the 'Products' worksheet, in the 'Projected Value' column, enter a formula that multiplies the value in the 'Current Value' column by the 'Increase' named range.",
-                "On the 'Products' worksheet, in the 'Projected Value' column, enter a formula that adds the value in the 'Current Value' column to the 'Increase' named range.",
-                "On the 'Products' worksheet, in the 'Projected Value' column, enter a formula that subtracts the value in the 'Current Value' column from the 'Increase' named range.",
-                "On the 'Products' worksheet, in the 'Projected Value' column, enter a formula that divides the value in the 'Current Value' column by the 'Increase' named range.",
-                "On the 'Products' worksheet, in the 'Projected Value' column, enter a formula that multiplies the value in the 'Current Value' column by the 'Increase' named range."
+                "On the 'Last Quarter' worksheet, in column F, beginning in cell F2, use a function to display each 'Job Title' from the table without retrieving duplicate entries.",
+                "On the 'Last Quarter' worksheet, in column F, beginning in cell F2, use a function to display each 'Company' from the table without duplicates.",
+                "On the 'Last Quarter' worksheet, in column F, beginning in cell F2, use a function to display each 'Candidate Name' without retrieving duplicate entries.",
+                "On the 'Last Quarter' worksheet, in column F, beginning in cell F2, use a function to list each 'Job Title' without duplicates.",
+                "On the 'Last Quarter' worksheet, in column F, starting from cell F2, use a function to extract unique 'Company' names from the table."
             ],
             [
-                "On the 'Summary' worksheet, apply the Colorful Palette 2 color to the chart.",
-                "On the 'Summary' worksheet, apply the Colorful Palette 3 to the chart.",
-                "On the 'Summary' worksheet, apply the Monochromatic Palette 1 to the chart.",
-                "On the 'Summary' worksheet, apply the Colorful Palette 4 to the chart.",
-                "On the 'Summary' worksheet, apply the Colorful Palette 1 to the chart."
+                "On the 'Job Openings' worksheet, modify the chart to display the Primary Vertical axis title. Enter the title 'Jobs'.",
+                "On the 'Job Openings' worksheet, modify the chart to display the Primary Horizontal axis title. Enter the title 'Years'.",
+                "On the 'Job Openings' worksheet, modify the chart to display the Primary Vertical axis title. Enter the title 'Open Positions'.",
+                "On the 'Job Openings' worksheet, modify the chart's Axes to display the Primary Horizontal Axis title. Enter 'Time Period'.",
+                "On the 'Job Openings' worksheet, modify the chart's Axes to show the Primary Vertical Axis title. Enter 'Job Counts'."
             ]
         ]
 
@@ -48,8 +48,64 @@ const bancoDePreguntas = {
     },
     // Proyecto 2 
     proyecto2: {
-        nombre: "Book Publishing",
-        archivo: "./projects/P2–BookPublishing.xlsx",
+        nombre: "StudentsGrades",
+        archivo: "./projects/StudentsGrades.xlsx",
+        preguntas: [
+            [
+                "In the document properties, add 'Math 101' as a Company.",
+                "In the document properties, add 'Algebra Basics' as a tag.",
+                "In the document properties, add 'Student Work' in the Category field.",
+                "In the document properties, add 'Introduction to Mathematics' as the Title.",
+                "In the document properties, add 'Math Department' as the Company.",
+                "In the document properties, add '2024 Semester' in the Category field.",
+                "In the document properties, add 'Final Project' as the Title."
+            ],
+            [
+                "On the 'Presentation Schedule' worksheet, modify the formula in the 'Time' column so that presentations are scheduled every 15 minutes from 8:00 AM.",
+                "On the 'Presentation Schedule' worksheet, modify the formula in the 'Time' column so that presentations are scheduled every 45 minutes from 8:00 AM.",
+                "On the 'Presentation Schedule' worksheet, modify the formula in the 'Time' column so that presentations are scheduled every 1 hour from 8:00 AM.",
+            ],
+            [
+                "On the 'Grades' worksheet, in the 'Attendance' column, use conditional formatting to apply the *Green Fill with Dark Green Text* format to cells that contain values greater than 97.",
+                "On the 'Grades' worksheet, in the 'Attendance' column, apply conditional formatting with *Yellow Fill with Dark Yellow Text* for cells with values greater than 90.",
+                "On the 'Grades' worksheet, in the 'Attendance' column, use conditional formatting to apply *Light Red Fill with Dark Red Text* to values less than 60.",
+                "On the 'Grades' worksheet, in the 'Attendance' column, apply conditional formatting with *Red Border* for values between 80 and 100.",
+                "On the 'Grades' worksheet, in the 'Attendance' column, use conditional formatting to apply *Light Red Fill* to cells with values greater than 85."
+            ],
+            [
+                "On the 'Grades' worksheet, perform a multi-level sort. Sort the table data by 'Final' (Largest to Smallest) and then by 'Student ID' (Smallest to Largest).",
+                "On the 'Grades' worksheet, sort the table by 'Average Total Points' (Largest to Smallest) and then by 'Student ID' (Smallest to Largest).",
+                "On the 'Grades' worksheet, sort the data first by 'Attendance' (Largest to Smallest) and then by 'Final' (Smallest to Largest).",
+                "On the 'Grades' worksheet, perform a multi-level sort by 'Final' (Largest to Smallest) and then by 'Student ID' (Smallest to Largest).",
+                "On the 'Grades' worksheet, sort the table by 'Final' (Smallest to Largest) and then by 'Attendance' (Largest to Smallest)."
+            ],
+            [
+                "On the 'Grades' worksheet, in the 'Bonus' column, enter a formula that multiplies the value in the 'Attendance' column by cell H4."
+            ],
+            [
+                "On the 'Grades' worksheet, in the 'Posted Scores' column, use a function to display the value from the 'Student ID' column, followed by the text '-Final Exam-', and the value from the 'Final' column.",
+                "On the 'Grades' worksheet, in the 'Posted Scores' column, display the 'Student ID' value, followed by '-Exam Score-', and the 'Final' value.",
+                "On the 'Grades' worksheet, in the 'Posted Scores' column, display the 'Student ID' value, followed by '-Grade-', and the value from the 'Final' column.",
+                "On the 'Grades' worksheet, in the 'Posted Scores' column, display the 'Student ID', '-Test Result-', and the 'Final' value.",
+                "On the 'Grades' worksheet, display the 'Student ID', '-Final-', 'Final' score, followed by the 'First Name'."
+            ],
+            [
+                "On the 'Attendance Analysis' worksheet, add the alt text description 'Attendance chart' to the chart.",
+                "On the 'Attendance Analysis' worksheet, add the alt text description 'Student Attendance Overview' to the chart.",
+                "On the 'Attendance Analysis' worksheet, add the alt text description 'Attendance Performance' to the chart.",
+                "On the 'Attendance Analysis' worksheet, add the alt text description 'Weekly Attendance Summary' to the chart.",
+                "On the 'Attendance Analysis' worksheet, add the alt text description 'Class Attendance Analysis' to the chart."
+            ]
+
+
+
+        ]
+    },
+
+    // Proyecto 3 
+    proyecto3: {
+        nombre: "BookPublishing",
+        archivo: "./projects/BookPublishing.xlsx",
         preguntas: [
             // Importing Data and Formatting as a Table
             [
@@ -107,218 +163,32 @@ const bancoDePreguntas = {
         ]
     },
 
-    // Proyecto 3 
-    proyecto3: {
-        nombre: "Clients",
-        archivo: "./projects/P3-Clients.xlsx",
-        preguntas: [
-            [
-                "On the 'Customer Billing' sheet, change the margins to Wide.",
-                "On the 'Customer Billing' sheet, set the margins to Custom Margins with 0.5-inch for all sides include the header and footer",
-                "On the 'Customer Billing' sheet, adjust the margins to Normal.",
-                "On the 'Customer Billing' sheet, set the margins to Custom Margins with 1-inch on top and bottom and 0.75-inch on the sides.",
-                "On the 'Customer Billing' sheet, change the margins to Custom Margins with 0.25-inch on all sides except the header and footer"
-            ],
-
-            // Adjusting Page Breaks (No Variants)
-            [
-                "On the 'Consultants' worksheet, adjust the page breaks so that the worksheet prints on two pages. Cells A1:D23 should print on the first page, and the entire chart should print on the second page."
-            ],
-
-            // Variants of Using the RANDBETWEEN Function for Random Number Generation
-            [
-                "On the 'New Clients' worksheet, in cells C4:C13, use the 'RANDBETWEEN' function to generate a random 'Consultant ID' number from 1 to 20 in each cell.",
-                "On the 'New Clients' worksheet, in cells C4:C13, use the 'RANDBETWEEN' function to generate a random 'Consultant ID' number from 5 to 15 in each cell.",
-                "On the 'New Clients' worksheet, in cells C4:C13, use the 'RANDBETWEEN' function to generate a random 'Consultant ID' number from 1 to 50 in each cell.",
-                "On the 'New Clients' worksheet, in cells C4:C13, use the 'RANDBETWEEN' function to generate a random 'Consultant ID' number from 10 to 100 in each cell.",
-                "On the 'New Clients' worksheet, in cells C4:C13, use the 'RANDBETWEEN' function to generate a random 'Consultant ID' number from 0 to 30 in each cell."
-            ],
-
-            // Variants of Applying Styles to Cell A1 on the "New Clients" Worksheet
-            [
-                "On the 'New Clients' worksheet, apply the Heading 1 style to cell A1.",
-                "On the 'New Clients' worksheet, apply the Heading 2 style to cell A1.",
-                "On the 'New Clients' worksheet, apply the Accent 1 style to cell A1.",
-                "On the 'New Clients' worksheet, apply the Total style to cell A1.",
-                "On the 'New Clients' worksheet, apply the 20% - Accent 4 style to cell A1."
-            ],
-
-            // Variants of Sorting Clients in Ascending or Descending Order
-            [
-                "On the 'New Clients' worksheet, in cells B4:B13, use a function to display the clients from cells E4:E13 in descending order.",
-                "On the 'New Clients' worksheet, in cells B4:B13, use a function to display the clients from cells E4:E13 in ascending order.",
-                "On the 'New Clients' worksheet, in cells B4:B13, use a function to show the clients from cells E4:E13 sorted in descending order by value.",
-                "On the 'New Clients' worksheet, in cells B4:B13, use a function to arrange the clients from cells E4:E13 in ascending order.",
-                "On the 'New Clients' worksheet, in cells B4:B13, use a function to display the clients from cells E4:E13 sorted in ascending alphabetical order."
-            ],
-
-            // Variants of Adding Alt Text to the Chart on the "Consultants" Worksheet
-            [
-                "On the 'Consultants' worksheet, add the alt text description 'Chart showing consultant weekly hours'.",
-                "On the 'Consultants' worksheet, add the alt text 'Weekly consultant performance chart'.",
-                "On the 'Consultants' worksheet, add the alt text description 'Consultants working hours per week'.",
-                "On the 'Consultants' worksheet, add the alt text 'Weekly working hours comparison'.",
-                "On the 'Consultants' worksheet, add the alt text 'Chart illustrating hours worked by consultants during the week'."
-            ]
-        ]
-    },
-
     // Proyecto 4 
     proyecto4: {
-        nombre: "VolunteerRoster",
-        archivo: "./projects/P4–VolunteerRoster.xlsx",
+        nombre: "Proximamente",
+        archivo: "",
         preguntas: [
-            [
-                "On the “Training” worksheet, add the Current Date to the right header cell. Use a technique that updates the date each time."
-            ],
 
-            // Insert a Note or Comment
-            [
-                "On the 'Roster' worksheet, in cell G6, insert a New Comment with the text “Requires 5 years of experience”.",
-                "On the 'Roster' worksheet, in cell F3, insert a New Note with the text “Eligible for extra training”.",
-                "On the 'Roster' worksheet, in cell H5, insert a Comment with the text “Awarded volunteer of the year”.",
-                "On the 'Roster' worksheet, in cell D7, insert a New Note with the text “Currently on probation period”.",
-                "On the 'Roster' worksheet, in cell C9, insert a Comment with the text “Completed 15+ years of service”."
-
-            ],
-
-            // Conditional Function Using Volunteer Data
-            [
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Gold” for each volunteer with 10 or more years of service. Otherwise, leave the “Award Type” blank.",
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Silver” for volunteers with 5 to 9 years of service. Otherwise, leave the “Award Type” blank.",
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Platinum” for each volunteer with more than 15 years of service. If less, leave the cell blank.",
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Bronze” for volunteers with 1 to 4 years of service. Otherwise, leave the cell blank.",
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Recognition” for each volunteer with at least 8 years of service. Otherwise, leave the cell blank.",
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Gold” for volunteers with more than 12 years of service. Otherwise, leave the cell blank.",
-                "On the ‘Roster’ worksheet, in the ‘Award Type’ column, use a function to display “Distinction” for volunteers with over 20 years of service. If less, leave the cell blank."
-            ],
-
-            // Formula for Display Name Format (Last Name, First Name)
-            [
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the volunteers’ names in the Last Name, First Name format. For example: Barr, Adam.",
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the volunteers’ names in the First Name Last Name format. For example: Adam Barr.",
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the volunteers’ names in the Last Name - First Name format, separated by a hyphen. For example: Barr - Adam.",
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the volunteers’ names separated by a space. For example: Barr Adam.",
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the volunteers’ names in the First Name-Last Name format, separated by a hyphen. For example: Adam-Barr.",
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the volunteers’ names in the Last Name followed by the First Name separated by two spaces. For example: Barr Adam.",
-                "On the ‘Roster’ worksheet, in the ‘Display Name’ column, enter a formula to display the full name with the first name in parentheses. For example: Barr (Adam)."
-            ]
         ]
     },
 
     // Proyecto 5
     proyecto5: {
-        nombre: "CoffeeInventory",
-        archivo: "./projects/P5–CoffeeInventory.xlsx",
+        nombre: "Proximamente",
+        archivo: "",
         preguntas: [
-            //  Inserting a Hyperlink
-            [
-                "On the 'Roasting' worksheet, in cell A10, insert a hyperlink to 'http://fourthcoffee.com'. Display the text 'More information' in the cell.",
-                "On the 'Roasting' worksheet, in cell A10, insert a hyperlink to the email address 'info@fourthcoffee.com'. Display the text 'Contact Us' in the cell.",
-                "On the 'Roasting' worksheet, in cell A10, insert a hyperlink to 'http://fourthcoffee.com' with the tooltip text 'Visit our website'. Display the text 'Learn More' in the cell."
-            ],
 
-            // Question 2: Copy and Paste Options
-            [
-                "On the 'Inventory' worksheet, copy cells A1:D33. Select cell A1 of the 'Archive' worksheet and paste the copied cells, retaining the Column widths from the source worksheet.",
-                "On the 'Inventory' worksheet, copy cells A1:D33. Select cell A1 of the 'Archive' worksheet and paste the copied cells, retaining the Source Formatting.",
-                "On the 'Inventory' worksheet, copy cells A1:D33. Select cell A1 of the 'Archive' worksheet and paste the copied cells, but paste Values Only.",
-                "On the 'Inventory' worksheet, copy cells A1:D33. Select cell A1 of the 'Archive' worksheet and paste the copied cells, Transpose the rows and columns.",
-                "On the 'Inventory' worksheet, copy cells A1:D33. Select cell A1 of the 'Archive' worksheet and paste the copied cells as a Linked Picture.",
-                "On the 'Inventory' worksheet, copy cells A1:D33. Select cell A1 of the 'Archive' worksheet and paste the copied cells as Formulas Only."
-
-            ],
-
-            // Applying Number Formats
-            [
-                "On the 'Inventory' worksheet, apply the Currency number format to cells D4:D33. Display the numbers with only two decimal places.",
-                "On the 'Inventory' worksheet, apply the Currency number format to cells D4:D33. Display the numbers with no decimal places.",
-                "On the 'Inventory' worksheet, apply the Accounting number format to cells D4:D33. Display the numbers with two decimal places.",
-                "On the 'Inventory' worksheet, apply the Currency number format to cells D4:D33. Display the numbers with four decimal places.",
-                "On the 'Inventory' worksheet, apply the Percentage number format to cells D4:D33. Display the numbers with one decimal place.",
-                "On the 'Inventory' worksheet, apply the Number format to cells D4:D33. Display the numbers with commas as thousands separators and two decimal places."
-
-            ],
-
-            // Table Style Options
-            [
-                "On the 'Roasting' worksheet, configure the table style options to automatically shade every other table row.",
-                "On the 'Roasting' worksheet, configure the table style options to include Header Row and Total Row.",
-                "On the 'Roasting' worksheet, configure the table style options to highlight the First Column and Last Column.",
-                "On the 'Roasting' worksheet, configure the table style options to display Banded Columns instead of rows.",
-                "On the 'Roasting' worksheet, configure the table style options to hide the Filter Button from the table."
-
-            ]
         ]
     },
 
     // Proyecto 6
     proyecto6: {
-        nombre: "ScoreSummary",
-        archivo: "./projects/P6–ScoreSummary.xlsx",
+        nombre: "Proximamente",
+        archivo: "",
         preguntas: [
-            //  Inserting a Hyperlink
-            [
-                "Configure the “Students” sheet so that only cells C3:E18 are printed"
-            ],
 
-            // Question 2: Copy and Paste Options
-            [
-                "On the ‘Scores’ worksheet, configure A3:F3 to automatically wrap the text"
-
-            ],
-
-            // Applying Number Formats
-            [
-                "On the “Scores” sheet, in the “Trend” column, insert Line sparklines to compare the results of “Test 1,” “Test 2,” and “Test 3."
-
-            ],
-
-            // Table Style Options
-            [
-                "On the “Students” worksheet, in the “Graduation Year” column, use a function to display the first 4 numbers of the “Student Number” from column A."
-
-            ],
-            // Table Style Options
-            [
-                "On the ‘Scores’ worksheet, update the chart to include the ‘Test 2’ and ‘Test 3’ scores. Note: The data series should display in the order ‘Test 1’, ‘Test 2’, ‘Test 3’."
-
-            ]
         ]
     },
-    // Proyecto 7
-    proyecto7: {
-        nombre: "CoffeeInventory",
-        archivo: "./projects/P7–Residences.xlsx",
-        preguntas: [
-            //  Inserting a Hyperlink
-            [
-                "In the document properties, add ‘Rent’ as a tag."
-            ],
-
-            // Question 2: Copy and Paste Options
-            [
-                "On the ‘Income’ worksheet, name the range B2:B4 ‘Income’"
-
-            ],
-
-            // Applying Number Formats
-            [
-                "On the ‘Real Estate’ worksheet, filter the table data to hide all rows with ‘Studio’ in the ‘Type’ column."
-
-            ],
-
-            // Table Style Options
-            [
-                "On the “Real Estate” worksheet, in the “Rent Increase” column, enter a formula that multiplies the value in the “Monthly Rent” column by cell C25."
-
-            ],
-            [
-                "On the ‘Income’ worksheet, modify the chart to display the legend to the right of the chart."
-
-            ]
-        ]
-    }
 };
 
 // Control del proyecto y preguntas seleccionadas
