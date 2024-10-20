@@ -165,27 +165,116 @@ const bancoDePreguntas = {
 
     // Proyecto 4 
     proyecto4: {
-        nombre: "Proximamente",
-        archivo: "",
+        nombre: "Attendance",
+        archivo: "./projects/Attendance.xlsx",
         preguntas: [
+            [
+                "On the 'Score' worksheet, insert page numbering in the center of the footer using the format 'Page [P] of [N]', where [P] is the Page Number and [N] is the Number of Pages.",
+                "On the 'Score' worksheet, insert page numbering in the center of the footer using the format '[N] y [P]', where [N] is the Number of Pages and [P] is the Page Number.",
+            ],
+            [
+                "On the 'Score Summary' worksheet, display the formulas instead of the values.",
+            ],
+            [
+                "On the 'Attendance' worksheet, configure rows 1 through 4 to repeat on all printed pages.",
+                "On the 'Attendance' worksheet, configure row 1 to repeat on all printed pages.",
+                "On the 'Attendance' worksheet, configure rows 1 through 3 to repeat on all printed pages.",
+                "On the 'Attendance' worksheet, configure rows 1 through 4 to repeat on all printed pages.",
+
+            ],
+            [
+                "On the 'Attendance' worksheet, delete the rows that have 'Elective' in the 'Class' column.",
+                "On the 'Attendance' worksheet, delete the rows that have 'English' in the 'Class' column.",
+                "On the 'Attendance' worksheet, delete the rows that have 'History' in the 'Class' column.",
+                "On the 'Attendance' worksheet, delete the rows that have 'Math' in the 'Class' column.",
+                "On the 'Attendance' worksheet, delete the rows that have 'Science' in the 'Class' column.",
+
+            ],
+            [
+                "On the 'Scores' worksheet, unmerge cell A1.",
+            ],
+            [
+                "On the 'Attendance Summary' worksheet, update the chart to include the 'Last Year' data."
+            ]
 
         ]
     },
 
     // Proyecto 5
     proyecto5: {
-        nombre: "Proximamente",
-        archivo: "",
+        nombre: "FitnessEquipment",
+        archivo: "./projects/FitnessEquipment.xlsx",
         preguntas: [
+            [
+                "On the 'Fitness Equipment' worksheet, change the print orientation to *Landscape*.",
+                "On the 'Fitness Equipment' worksheet, change the print orientation to *Portrait*.",
+
+            ],
+            [
+                "On the 'Sales' worksheet, apply the *White, Table Style Light 1* style to the table.",
+                "On the 'Sales' worksheet, apply the *Medium, Table Style Medium 2* style to the table.",
+                "On the 'Sales' worksheet, apply the *Dark, Table Style Dark 3* style to the table.",
+
+            ],
+            [
+                "On the 'Fitness Equipment' worksheet, in the 'Commission' column, enter a formula that multiplies the value in the 'Sales Amount' column by the 'CommissionRate' named range. Use the column name and range name in the formula instead of cell references or values.",
+
+            ],
+            [
+                "On the 'Fitness Equipment' worksheet, in cell J24, use a function to count the number of transactions in the 'Transaction ID' column.",
+
+            ],
+            [
+                "On the 'Fitness Equipment' worksheet, in the 'Equipment ID' column, use a function to display the last 4 digits of the 'Model' name from column D.",
+                "On the 'Fitness Equipment' worksheet, in the 'Equipment ID' column, use a function to display the first 4 letters of the 'Model' name from column D.",
+                "On the 'Fitness Equipment' worksheet, in the 'Equipment ID' column, use a function to display the first 1 letter of the 'Model' name from column D.",
+                "On the 'Fitness Equipment' worksheet, in the 'Equipment ID' column, use a function to display the first 2 letters of the 'Model' name from column D.",
+                "On the 'Fitness Equipment' worksheet, in the 'Equipment ID' column, use a function to display the first 3 letters of the 'Model' name from column D.",
+
+            ],
+            [
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 3*.",
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 4*.",
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 5*.",
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 6*.",
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 11*.",
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 2*."
+
+            ]
+
 
         ]
     },
 
     // Proyecto 6
     proyecto6: {
-        nombre: "Proximamente",
-        archivo: "",
+        nombre: "AccountBalances",
+        archivo: "./projects/AccountBalances.xlsx",
         preguntas: [
+            [
+                "Navigate to the range named 'EducationsQ1' and change the value in the first cell of the range to '$16,000'.",
+                "Navigate to the range named 'EducationsQ1' and change the value in the second cell of the range to '$16,000'.",
+                "Navigate to the range named 'EducationsQ1' and change the value in the third cell of the range to '$16,000'.",
+
+            ],
+            [
+                "Check the workbook for accessibility issues. Correct the issue reported in the inspection result by performing the recommended action and selecting an option that displays negative numbers with a negative sign.",
+
+            ],
+            [
+                "On the 'Summary' worksheet, apply the *Accounting* number format to cells B4:E12. Display the numbers with only two decimal places.",
+                "On the 'Summary' worksheet, apply the *Currency* number format to cells B4:E12. Display the numbers with three decimal places.",
+                "On the 'Summary' worksheet, apply the *Number* format to cells B4:E12. Display the numbers with four decimal places.",
+
+            ],
+            [
+                "On the 'Summary' worksheet, in cell B14, enter a formula that adds all the cells in the named range 'YearEnd'. Use the range name in the formula instead of cell references or values.",
+
+            ],
+            [
+                "On the 'Health & Research' worksheet, configure the table style option to automatically emphasize the first column of the table."
+            ]
+
 
         ]
     },
