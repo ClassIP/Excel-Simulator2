@@ -38,8 +38,8 @@ const bancoDePreguntas = {
                 "On the 'Job Openings' worksheet, modify the chart to display the Primary Vertical axis title. Enter the title 'Jobs'.",
                 "On the 'Job Openings' worksheet, modify the chart to display the Primary Horizontal axis title. Enter the title 'Years'.",
                 "On the 'Job Openings' worksheet, modify the chart to display the Primary Vertical axis title. Enter the title 'Open Positions'.",
-                "On the 'Job Openings' worksheet, modify the chart's Axes to display the Primary Horizontal Axis title. Enter 'Time Period'.",
-                "On the 'Job Openings' worksheet, modify the chart's Axes to show the Primary Vertical Axis title. Enter 'Job Counts'."
+                "On the 'Job Openings' worksheet, modify the chart's Axes to display the Primary HorizontaL. Enter 'Time Period'.",
+                "On the 'Job Openings' worksheet, modify the chart's Axes to show the Primary Vertical. Enter 'Job Counts'."
             ]
         ]
 
@@ -145,11 +145,11 @@ const bancoDePreguntas = {
 
             // Creating a 3D Chart with Variations in Chart Type
             [
-                "On the 'Comparison' worksheet, using the data from 'Price Comparison by Regions', create a 3D Clustered Bar  Chart that shows the 'Total Value' data for each 'Region'. Display the regions as a legend and add the title 'Total Value'.",
-                "On the 'Comparison' worksheet, using the data from 'Price Comparison by Regions', generate a 3D Column Chart for the 'Total Value' of each region, displaying the regions in the legend and the title 'Total Value'.",
-                "In the 'Comparison' worksheet, create a 3D Pie Chart using the 'Total Value' data from 'Price Comparison by Regions'. Show the regions as a legend and add the title 'Total Value'.",
-                "On the 'Comparison' worksheet, generate a 3D Area Chart displaying the 'Total Value' data for each 'Region' from 'Price Comparison by Regions'. Show the regions in the legend with the title 'Total Value'.",
-                "In the 'Comparison' worksheet, create a 3D Doughnut Chart using the 'Total Value' data for each region from 'Price Comparison by Regions', with a legend for the regions and the title 'Total Value'."
+                "On the 'Comparison' worksheet, using the data from 'Price Comparison by Regions', create a 3-D Clustered Bar  Chart that shows the 'Total Value' data for each 'Region'. Display the regions as a legend and add the title 'Total Value'.",
+                "On the 'Comparison' worksheet, using the data from 'Price Comparison by Regions', generate a 3-D Column Chart for the 'Total Value' of each region, displaying the regions in the legend and the title 'Total Value'.",
+                "In the 'Comparison' worksheet, create a 3-D Pie Chart using the 'Total Value' data from 'Price Comparison by Regions'. Show the regions as a legend and add the title 'Total Value'.",
+                "On the 'Comparison' worksheet, generate a 3-D Area Chart displaying the 'Total Value' data for each 'Region' from 'Price Comparison by Regions'. Show the regions in the legend with the title 'Total Value'.",
+                "In the 'Comparison' worksheet, create a Doughnut Chart using the 'Total Value' data for each region from 'Price Comparison by Regions', with a legend for the regions and the title 'Total Value'."
             ],
 
             // Modifying a Chart with Data Label Variations
@@ -170,7 +170,7 @@ const bancoDePreguntas = {
         preguntas: [
             [
                 "On the 'Score' worksheet, insert page numbering in the center of the footer using the format 'Page [P] of [N]', where [P] is the Page Number and [N] is the Number of Pages.",
-                "On the 'Score' worksheet, insert page numbering in the center of the footer using the format '[N] y [P]', where [N] is the Number of Pages and [P] is the Page Number.",
+                "On the 'Score' worksheet, insert page numbering in the center of the footer using the format 'Page [N] of  [P]', where [N] is the Number of Pages and [P] is the Page Number.",
             ],
             [
                 "On the 'Score Summary' worksheet, display the formulas instead of the values.",
@@ -237,7 +237,7 @@ const bancoDePreguntas = {
                 "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 4*.",
                 "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 5*.",
                 "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 6*.",
-                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 11*.",
+                "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 7*.",
                 "On the 'Sales' worksheet, change the elements displayed on the chart by changing the chart layout to *Layout 2*."
 
             ]
